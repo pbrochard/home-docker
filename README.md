@@ -1,4 +1,6 @@
-### Home docker - your home in a Docker container
+### Home docker - A personalised home in a Docker container.
+
+*Share only what you want with applications running inside a Docker container.*
 
 #### Build
 ```sh.
