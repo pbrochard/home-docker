@@ -1,0 +1,7 @@
+#! /bin/bash
+
+mkdir -p "$(pwd)/home"
+
+docker run -it --rm \
+	   -v "$(pwd)/home:/home/user" \
+	   home
