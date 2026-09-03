@@ -1,3 +1,3 @@
 ### Shared home
 
-File modifications in this directory are persisted outside the docker file.
+File modifications in this directory are persisted outside the docker container.
