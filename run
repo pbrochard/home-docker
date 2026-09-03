@@ -2,6 +2,9 @@
 
 mkdir -p "$(pwd)/home"
 
+#EXTRA_MOUNT="-v $HOME/src:/home/user/src"
+
 docker run -it --rm \
 	   -v "$(pwd)/home:/home/user" \
+	   $EXTRA_MOUNT \
 	   home
