@@ -22,8 +22,7 @@ ARG GID=1000
 RUN groupadd -g $GID user && \
     useradd -m -u $UID -g $GID user
 
-WORKDIR /agent
-RUN chown -R user:user /agent
+WORKDIR /
 RUN chown -R user:user /home/user
 
 WORKDIR /home/user
