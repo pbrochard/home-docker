@@ -4,7 +4,7 @@
 
 #### Build
 ```sh.
-/build
+./build
 ```
 
 #### Run
